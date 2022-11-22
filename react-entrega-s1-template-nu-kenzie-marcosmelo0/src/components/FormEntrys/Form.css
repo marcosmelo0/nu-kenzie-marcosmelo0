@@ -1,0 +1,41 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 39px 5% 0;
+  height: 378px;
+  padding: 38px 24.5px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  gap: 18px;
+}
+
+div label {
+  margin-bottom: 10px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconReal {
+  position: relative;
+  bottom: 35px;
+  left: 70%;
+}
+
+.inputs div input {
+  margin-top: 10px;
+}
+.inputs div select {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (min-width: 56.25rem) {
+  form {
+    width: 45vw;
+    margin-left: 10%;
+  }
+}

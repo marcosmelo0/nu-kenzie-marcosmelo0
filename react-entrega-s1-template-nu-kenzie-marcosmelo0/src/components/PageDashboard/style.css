@@ -1,0 +1,15 @@
+#root {
+  background-color: #ffffff;
+}
+
+#inputValue {
+  width: 90%;
+  margin-right: 15px;
+}
+
+@media (min-width: 900px) {
+  .main {
+    width: 100vw;
+    display: flex;
+  }
+}

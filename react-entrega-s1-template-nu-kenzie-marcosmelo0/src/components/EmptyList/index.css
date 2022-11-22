@@ -1,0 +1,20 @@
+.titleEmptyList {
+  margin-top: 10px;
+}
+
+.divEmptyList {
+  display: flex;
+  flex-direction: column;
+  gap: 33.78px;
+  padding: 0 7%;
+}
+
+@media (min-width: 56.25rem) {
+  .divEmptyList {
+    width: 51vw;
+    position: absolute;
+    left: 45%;
+    top: 205px;
+    padding: 0 0 0 7%;
+  }
+}

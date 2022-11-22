@@ -1,0 +1,26 @@
+input {
+  width: 100%;
+  padding: 0px 16px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  background: #f8f9fa;
+  min-height: 52.8px;
+  font-family: "Inter", sans-serif;
+}
+
+input:focus {
+  outline: 1.2px solid #212529;
+}
+
+select {
+  border: 2px solid #f8f9fa;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 0px 16px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+}
