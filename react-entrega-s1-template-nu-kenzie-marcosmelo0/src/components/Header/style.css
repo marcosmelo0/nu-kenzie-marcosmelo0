@@ -19,6 +19,19 @@ header .logo {
   height: 19.53px;
 }
 
+.nav-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header button {
+  padding: 10px 15px;
+}
+strong {
+  color: #fd377e;
+}
+
 @media (min-width: 56.25rem) {
   header {
     padding: 0;

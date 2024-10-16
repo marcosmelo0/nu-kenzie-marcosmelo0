@@ -7,10 +7,14 @@ export const Header = ({ login }) => {
   return (
     <header className="header">
       <div>
-        <img className="logo" src={logo} alt="logotipo" />
-        <button className="btnDisable" onClick={() => login(false)}>
-          Inicio
-        </button>
+        <nav className="nav-header">
+          <h1>
+            <strong className="btn-primary">Finance</strong> Melo
+          </h1>
+          <button className="btnDisable" onClick={() => login(false)}>
+              INICIO
+          </button>
+        </nav>
       </div>
     </header>
   );
